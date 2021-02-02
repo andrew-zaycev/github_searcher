@@ -1,0 +1,56 @@
+.card-repo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #16223f;
+  height: 70px;
+
+  &:last-child {
+    margin-bottom: 20px;
+  }
+
+  &__loader {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  &__wrap-items__stars {
+    margin-bottom: 0;
+  }
+
+  &__wrap-items {
+    margin-left: auto;
+    text-align: right;
+  }
+
+  &__repo-name {
+    position: absolute;
+    width: 440px;
+    text-decoration: none;
+    color: white;
+    height: 70px;
+    line-height: 70px;
+
+    &:hover {
+      color: #398bf7;
+    }
+  }
+
+  &__wrap-items__forks {
+    margin-bottom: 5px;
+    color: #757575;
+
+    &__count {
+      color: #55ba51;
+    }
+  }
+
+  &__wrap-items__stars {
+    color: #757575;
+
+    &__count {
+      color: #f0883e;
+    }
+  }
+}
